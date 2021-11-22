@@ -1,0 +1,99 @@
+.job__card_container{
+    position: relative;
+    background: #F5F5F5;
+    border-radius: 8px;
+    min-height: 480px;
+    max-height: 480px;
+    min-width: 350px;
+    max-width: 350px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    cursor: pointer;
+    .label__location{
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      margin: 24px;
+      z-index: 10;
+    }
+    .img_wrapper{
+        line-height: 0;
+    }
+    .decs__plate_wrapper{
+        position: absolute;
+        top: 0;
+        left: 500px;
+        width: 100%;
+        height: 100%;
+        background: #FFDF31;
+        border-radius: 8px;
+        padding: 24px;
+        display: flex;
+        align-items: flex-end;
+        transition: 0.3s ease-in-out;
+        z-index: 5;
+        .desc__text{
+           white-space: normal;
+           font-weight: 500;
+           font-size: 18px;
+           line-height: 23px;
+        }
+    }
+    &:hover{
+        .decs__plate_wrapper {
+            transition: 0.4s ease-in-out;
+            left: 0;
+        }
+    }
+}
+
+
+// MEDIA query 
+@media only screen and (max-width: 1110px) {
+    .job__card_container {
+        min-height: 410px;
+        max-height: 410px;
+        min-width: 300px;
+        max-width: 300px;
+        .img_wrapper {
+            width: 285px;
+            img{
+                width: 100%;
+            }
+          
+        }
+    }
+    
+}
+// @media (pointer: coarse) and (max-width: 1366px){
+//     .job__card_container {
+//         &:hover {
+//             .decs__plate_wrapper {
+//                 transition: 0.4s ease-in-out;
+//                 left: 100%;
+//             }
+//         }
+//     }
+// }
+@media only screen and (max-width: 599px) {
+    .job__card_container {
+       margin: 0 auto;
+    }
+
+}
+@media only screen and (max-width: 480px) {
+    .job__card_container {
+        min-height: 344px;
+        max-height: 344px;
+        min-width: 252px;
+        max-width: 252px;
+        .img_wrapper {
+            width: 215px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

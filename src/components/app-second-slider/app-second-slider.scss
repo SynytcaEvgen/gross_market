@@ -1,0 +1,29 @@
+.second__slider_wrapper{
+    margin-bottom: 72px;
+    .swiper-container {
+        overflow: visible;
+         [class*="swiper-button"] {
+             left: unset;
+             right: 0;
+             bottom: unset;
+             top: -76px;
+         }
+        .swiper-button-prev {
+            right: 44px;
+        }
+        .swiper-button-next {
+            left: unset;
+        }
+    }
+}
+
+// MEDIA query 
+@media only screen and (max-width: 1024px) {
+    .second__slider_wrapper {
+        .swiper-container {
+            [class*="swiper-button"] {
+                display: none;
+            }
+        }
+    }
+}

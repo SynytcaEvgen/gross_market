@@ -1,0 +1,88 @@
+.header_wrapper{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 32px 0;
+   .call_back_container{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       gap: 32px;
+       .link__phone{
+           .phone_icon{
+               display: none;
+           }
+       }
+   }
+}
+
+// MEDIA query
+@media only screen and (max-width: 1199px) {
+    
+}
+@media only screen and (max-width: 767px) {
+    .header_wrapper {
+        .call_back_container {
+            gap: 15px;
+        }
+    }
+}
+@media only screen and (max-width: 600px) {
+    .header_wrapper {
+        .call_back_container {
+            margin-right: 17px;
+            .link__phone {
+                .phone_icon {
+                    display: block;
+                }
+                .phone_number{
+                    display: none;
+                }
+            }
+             .btn {
+                display: none;
+                &.btn__fix {
+                    display: flex;
+                    position: fixed;
+                    top: 0;
+                    left: 50%;
+                    transform: translate(-50%, 0);
+                    z-index: 50;
+                    width: 345px;
+                    margin: 18px auto;
+                }
+             }
+        }
+    }
+}
+@media only screen and (max-width: 374px) {
+    .header_wrapper {
+        .call_back_container {
+            margin-right: 17px;
+
+            .link__phone {
+                .phone_icon {
+                    display: block;
+                }
+
+                .phone_number {
+                    display: none;
+                }
+            }
+            .btn {
+                display: none;
+
+                &.btn__fix {
+                    display: block;
+                    position: fixed;
+                    top: 0;
+                    left: 50%;
+                    transform: translate(-50%, 0);
+                    z-index: 50;
+                    width: 290px;
+                    margin: 18px auto;
+                }
+            }
+        }
+    }
+}

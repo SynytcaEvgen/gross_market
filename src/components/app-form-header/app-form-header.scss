@@ -1,0 +1,36 @@
+.form_header{
+    background-color: #F5F5F5;
+    .header_wrapper {
+        padding: 35px 0 29px;
+        .close_form_btn{
+            transition: 0.2s ease-in-out;
+            cursor: pointer;
+            &:hover{
+                svg path {
+                    stroke: #FF6666;
+                    transition: 0.2s ease-in-out;
+                }
+            }
+        }
+    }
+}
+
+// MEDIA query
+@media only screen and (max-width: 1024px) {
+    .form_header {
+        .header_wrapper {
+            padding: 35px 0;
+
+        }
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .form_header {
+        .header_wrapper {
+            padding: 24px 0;
+
+        }
+    }
+}

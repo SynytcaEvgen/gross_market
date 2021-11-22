@@ -1,0 +1,16 @@
+@import './reset_html.scss';
+@import './font.scss';
+
+
+*{
+  font-family: 'Euclid Circular B', sans-serif;
+}
+
+body {
+  &.modal{
+    overflow: hidden;
+  }
+}
+p,span,div{
+  white-space: normal;
+}

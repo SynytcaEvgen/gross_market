@@ -1,0 +1,82 @@
+[
+  {
+    "pointName": "Point 1",
+    "lat": 55.851668,
+    "lng": 37.389104,
+    "yur": false,
+    "fiz": true,
+    "id": 1                                                  
+  },
+  {
+    "pointName": "Point 2",
+    "lat": 55.898020,
+    "lng": 37.597115,
+    "yur": false,
+    "fiz": true,
+    "id": 2                                                  
+  },
+  {
+    "pointName": "Point 3",
+    "lat": 55.843553,
+    "lng": 37.503121,
+    "yur": false,
+    "fiz": true,
+    "id": 3                                                 
+  },
+  {
+    "pointName": "Point 4",
+    "lat": 55.783118,
+    "lng": 37.500121,
+    "yur": false,
+    "fiz": true,
+    "id": 4                                                  
+  },
+  {
+    "pointName": "Point 5",
+    "lat": 55.644491,
+    "lng": 37.538798,
+    "yur": false,
+    "fiz": true,
+    "id": 5                                                 
+  },
+  {
+    "pointName": "Point 6",
+    "lat": 55.751684,
+    "lng": 37.617414,
+    "yur": true,
+    "fiz": false,
+    "id": 6                                                  
+  },
+  {
+    "pointName": "Point 7",
+    "lat": 55.722818,
+    "lng": 37.731590,
+    "yur": true,
+    "fiz": false,
+    "id": 7                                                  
+  },
+  {
+    "pointName": "Point 8",
+    "lat": 55.654549,
+    "lng": 37.720937,
+    "yur": true,
+    "fiz": false,
+    "id": 8                                                 
+  },
+  {
+    "pointName": "Point 9",
+    "lat": 55.675772,
+    "lng": 37.893918,
+    "yur": true,
+    "fiz": false,
+    "id": 9                                                 
+  },
+  {
+    "pointName": "Point 10",
+    "lat": 55.790578,
+    "lng": 37.976018,
+    "yur": true,
+    "fiz": false,
+    "id": 10                                                  
+  }
+]

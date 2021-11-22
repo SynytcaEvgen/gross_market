@@ -1,0 +1,17 @@
+.lable_dec{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+    background-color: #fff;
+    padding: 12px 16px;
+    border-radius: 50px;
+    display: block;
+}
+
+
+// MEDIA query
+@media only screen and (max-width: 767px) {
+    .lable_dec {
+        padding: 10px 16px;
+    }
+}

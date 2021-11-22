@@ -1,0 +1,35 @@
+.select_style{
+    .css-1okebmr-indicatorSeparator{
+        display: none;
+    }
+    .css-1pahdxg-control{
+        border: none;
+        box-shadow: 0px 0px 7px 3px rgba(255, 223, 49, 0.2);
+        &:hover{
+            border: none;
+            box-shadow: 0px 0px 7px 3px rgba(255, 223, 49, 0.2);
+        }    
+    }
+    .css-1s2u09g-control{
+        background-color: #F5F5F5;
+        border-radius: 8px;
+        border: none;
+    }
+    .css-319lph-ValueContainer{
+        padding: 12px 16px;
+    }
+    .css-7pwich-Input{
+        margin: 0;
+        padding: 0;
+    }
+    .css-qc6sy-singleValue,
+    .css-14el2xx-placeholder {
+        font-size: 18px;
+        line-height: 23px;
+        font-weight: 500;
+    }
+    .css-tlfecz-indicatorContainer,
+    .css-1gtu0rj-indicatorContainer{
+        padding: 20px 20px 17px;
+    }
+}
